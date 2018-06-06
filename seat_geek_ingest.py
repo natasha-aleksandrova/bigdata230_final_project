@@ -6,22 +6,6 @@ import os
 
 es = Elasticsearch()
 
-# TODO: implement pagination like use total and keep looking til you get total records
-# TODO: setup cronjob
-
-mappings = {
-    "seat_geek": {
-        "properties": {
-            "geo": {
-                 "properties": {
-                     "location": {
-                         "type": "geo_point"
-                     }
-                 }
-             }
-        }
-    }
-}
 mappings ={    'mappings': {
     "seat_geek": {
                  "properties": {
