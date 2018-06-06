@@ -7,15 +7,15 @@ import os
 es = Elasticsearch()
 
 mappings = {
-	'mappings': {
-		"seat_geek": {
-			"properties": {
-				"location": {
-					"type": "geo_point"
-				}
-			}
-		}
-	}
+    'mappings': {
+        "seat_geek": {
+            "properties": {
+                "location": {
+                    "type": "geo_point"
+                }
+            }
+        }
+    }
 }
 
 
